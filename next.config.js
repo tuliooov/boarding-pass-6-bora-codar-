@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   compiler: {
     styledComponents: true,
+    jsx: 'react',
   },
   images: {
     loader: 'akamai',
