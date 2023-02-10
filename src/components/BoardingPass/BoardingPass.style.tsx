@@ -15,7 +15,7 @@ export const Root = styled.div`
 `
 
 export const Dashed = styled.div`
-  border: 1px dashed #545454;
+  border: 0.5px dashed #545454;
   background: white;
   width: 90%;
 `

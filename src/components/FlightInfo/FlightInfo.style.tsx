@@ -13,7 +13,7 @@ export const Root = styled.div`
     radial-gradient(circle at 100% 0, rgba(204, 0, 0, 0) 0px, #fff 0px),
     radial-gradient(circle at 100% 100%, rgba(204, 0, 0, 0) 14px, #fff 15px),
     radial-gradient(circle at 0 100%, rgba(204, 0, 0, 0) 14px, #fff 15px);
-  background-size: 51% 51%;
+  background-size: 52% 54%;
   background-repeat: no-repeat;
   border-radius: 1.5rem 1.5rem 0 0;
   padding: 1.5rem 2rem;

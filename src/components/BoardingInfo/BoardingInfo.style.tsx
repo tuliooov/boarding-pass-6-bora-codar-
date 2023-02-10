@@ -13,9 +13,29 @@ export const Root = styled.div`
     radial-gradient(circle at 100% 0, rgba(204, 0, 0, 0) 14px, #fff 15px),
     radial-gradient(circle at 100% 100%, rgba(204, 0, 0, 0) 0px, #fff 0px),
     radial-gradient(circle at 0 100%, rgba(204, 0, 0, 0) 0px, #fff 0px);
-  background-size: 51% 51%;
+  background-size: 52% 52%;
   background-repeat: no-repeat;
   border-radius: 0 0 1.5rem 1.5rem;
   padding: 1.5rem 2rem;
   min-width: 327px;
+`
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+`
+export const InfoColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+`
+export const QRCodeColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  p {
+    font-size: 0.9rem;
+  }
 `
