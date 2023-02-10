@@ -1,5 +1,8 @@
 :root {
   --background: linear-gradient(to left top,rgba(39, 26, 69, 1), rgba(130, 87, 229, 1));
+  --color-boarding-pass: #fff;
+  --background-boarding-pass: #000;
+  --color-border: rgba(0, 0, 0, 0.32);
   --button: #42287f;
   --primary100: red;
   --primary200: red;
@@ -14,6 +17,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: linear-gradient(to left top,rgba(39, 26, 69, 1), rgba(130, 87, 229, 1));
+    --color-boarding-pass-strong: rgba(0, 0, 0, 0.88);
+    --color-boarding-pass: rgba(0, 0, 0, 0.64);
+    --background-boarding-pass: #fff;
+    --color-border: rgba(0, 0, 0, 0.32);
     --button: #42287f;
     --primary100: red;
     --primary200: red;

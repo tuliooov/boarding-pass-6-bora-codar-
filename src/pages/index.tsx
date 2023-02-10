@@ -3,6 +3,7 @@ import { Inter } from '@next/font/google'
 
 import { useState } from 'react'
 import { Main, OpenButton, Texts, TextsContainer } from '@/styles/Home.style'
+import { BoardingPass } from '@/components/BoardingPass'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,7 +27,7 @@ export default function Home() {
       </Head>
       <Main>
         {/* <CalculatorProvider> */}
-        {open ? <>desenvolvendo</> : null}
+        {open ? <BoardingPass /> : null}
         {!open && (
           <TextsContainer>
             <Texts>
