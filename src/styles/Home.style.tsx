@@ -4,9 +4,8 @@ export const Main = styled.div`
   background: var(--background);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
 `
 

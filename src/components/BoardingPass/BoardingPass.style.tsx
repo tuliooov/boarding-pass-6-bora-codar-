@@ -12,6 +12,7 @@ export const Root = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* gap: 1rem; */
 `
 
 export const Dashed = styled.div`
