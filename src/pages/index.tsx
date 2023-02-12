@@ -40,10 +40,6 @@ export default function Home() {
               <h1>
                 <strong>Challenge #06</strong> - Boarding Pass
               </h1>
-              <p>
-                and post on social media with the hashtag{' '}
-                <strong>#boraCodar</strong>.
-              </p>
             </Texts>
             <OpenButton onClick={handleOpen(true)}>
               Open Boarding Pass
