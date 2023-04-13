@@ -24,4 +24,4 @@ Develop a screen where a user views a boarding pass. Use your creativity and fee
 https://www.figma.com/file/CbdHr7k7xe0Kpi6dRIrvtW/%23boraCodar---Desafio-6-(Community)?t=cMZh9ItXNwU29Oiw-0
 
 ## Deployed
-- https://tuliooov.github.io/boarding-pass-6-bora-codar/
+- https://tuliooov.github.io/boracodar6-componente-de-cartao-de-embarque/
